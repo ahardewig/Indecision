@@ -1,0 +1,17 @@
+{
+	"name":"Indecision",
+	"version":"0.1",
+	"manifest_version":2,
+	"description": "Cant find a gift? Let us help!",
+	"browser_action": {
+		"default_title": "Find a random gift!"
+	},
+	"background": {
+		"scripts": ["p5.min.js", "popup.js"]
+	},
+	"permissions": [
+		"tabs",
+		"contextMenus",
+    		"http://api.wordnik.com/"
+	]
+}
